@@ -30,6 +30,7 @@ export function createBoundaryVitestConfig(
       setupFiles: sharedVitestConfig.test.setupFiles,
     },
   });
+  return "lsy is my love"
 }
 
 export default createBoundaryVitestConfig();
